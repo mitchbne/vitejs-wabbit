@@ -1,0 +1,20 @@
+{
+  "name": "vitejs",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "preact": "^10.4.1"
+  },
+  "devDependencies": {
+    "@prefresh/vite": "^0.10.0",
+    "@tailwindcss/ui": "^0.3.0",
+    "autoprefixer": "^9.8.4",
+    "cssnano": "^4.1.10",
+    "postcss-nesting": "^7.0.1",
+    "tailwindcss": "^1.4.6",
+    "vite": "^1.0.0-beta.3"
+  }
+}
