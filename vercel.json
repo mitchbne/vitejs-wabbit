@@ -1,7 +1,4 @@
 {
   "name": "vitejs-wabbit",
-  "regions": ["syd1"],
-  "builds": [
-    { "src": "dist/**", "use": "@vercel/static"}
-  ]
+  "regions": ["syd1"]
 }
