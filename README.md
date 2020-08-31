@@ -3,7 +3,7 @@
 </h2>
 
 <p align="center">
-  A template starter repository using ViteJS, TailwindCSS, Typescript and ESlint.
+  A template starter repository using ViteJS, React, TailwindCSS, Typescript and ESlint.
 </p>
 
 <p align="center">
