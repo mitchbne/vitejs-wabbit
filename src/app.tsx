@@ -1,6 +1,6 @@
 import React from "react"
 
-export const App = () => (
+export const App = (): React.ReactElement => (
   <div className="flex flex-col items-center justify-center w-screen h-screen py-20 px-4 bg-white">
     <div className="w-full max-w-2xl flex flex-col items-center">
       <div className="flex items-center justify-center">
