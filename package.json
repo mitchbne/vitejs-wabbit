@@ -33,6 +33,7 @@
     "eslint-plugin-underscore-to-lodash": "^0.0.2",
     "husky": "^4.2.5",
     "postcss-nesting": "^7.0.1",
+    "rollup-plugin-typescript": "^1.0.1",
     "tailwindcss": "^1.4.6",
     "typescript": "^4.0.2",
     "vite": "^1.0.0-beta.3",
