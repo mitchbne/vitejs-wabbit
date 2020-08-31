@@ -1,6 +1,6 @@
 module.exports = {
   ci: {
-    collect: { staticDistDir: "./build" },
+    collect: { staticDistDir: "./dist" },
     assert: {
       assertions: {
         "categories:performance": ["warn", { minScore: 0.98 }],
