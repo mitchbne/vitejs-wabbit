@@ -22,7 +22,7 @@
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly"
   },
-  "parser": "babel-eslint",
+  "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -36,7 +36,8 @@
     "underscore-to-lodash",
     "compat",
     "import",
-    "eslint-comments"
+    "eslint-comments",
+    "@typescript-eslint"
   ],
   "rules": {
     "underscore-to-lodash/prefer-import-lodash": "error",
@@ -87,9 +88,7 @@
       "number": false,
       "string": true
     }],
-    "import/no-unresolved": [2, {
-      "ignore": ["react", "react-dom"]
-    }],
+    "import/no-unresolved": 2,
     "import/named": 2,
     "import/default": 2,
     "import/namespace": 2,
@@ -175,6 +174,8 @@
     }],
     "no-useless-computed-key": 2,
     "no-unexpected-multiline": "error",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["error"],
     "react/no-typos": 2,
     "react/jsx-no-target-blank": 2,
     "no-unused-expressions": 0,
