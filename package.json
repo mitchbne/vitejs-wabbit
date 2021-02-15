@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "files": ["build"],
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
+    "dev": "NODE_ENV=development vite",
+    "build": "tsc && NODE_ENV=production vite build",
     "serve": "vite preview",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
   },
