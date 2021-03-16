@@ -22,7 +22,7 @@ function App() {
                     </span>
                     <p className="ml-2">
                       Customizing your
-                      <code className="text-sm font-bold text-gray-900">&nbsp;tailwind.config.js</code> file
+                      <code className="text-sm font-bold text-gray-900">tailwind.config.js</code> file
                     </p>
                   </li>
                   <li className="flex items-start">
@@ -33,7 +33,7 @@ function App() {
                     </span>
                     <p className="ml-2">
                       Extracting classes with
-                      <code className="text-sm font-bold text-gray-900">&nbsp;@apply</code>
+                      <code className="text-sm font-bold text-gray-900">@apply</code>
                     </p>
                   </li>
                   <li className="flex items-start">
